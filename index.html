@@ -3,7 +3,7 @@
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>Portfolio</title>
+	<title>Joanna’s Developer Portfolio</title>
 </head>
 <body>
     <!--Find an image online that represents you or your goals and add it to the “About Me” section. Ensure it’s properly resized using HTML 
@@ -12,7 +12,7 @@
    <header>
     <h1>Joanna</h1>
     <p>An aspiring full stack developer</p>
-    <img src="https://ew.com/thmb/fdi4PeWoQyxdLAs_LAdl6punGoM=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/alicia-florrick-1-31f4b8ea47134bf4a20dc089c808e7a1.jpg" alt="Alicia Florrick from a TV series The Good Wife" width="500">
+    <img src="https://ew.com/thmb/fdi4PeWoQyxdLAs_LAdl6punGoM=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/alicia-florrick-1-31f4b8ea47134bf4a20dc089c808e7a1.jpg" alt="Alicia Florrick from a TV series The Good Wife - she represents a strong capable woman who is outstanding at her job, which is something I identify with">
    </header>
 
    <!--Create Navigation Links - Add a navigation bar that links to each section of your single-page site. Each link should scroll smoothly 
@@ -21,10 +21,12 @@
      within your limitations.-->
 
      <nav>
-        <a href="#about">About Me</a>
-        <a href="#projects">Projects</a>
-        <a href="#contact">Contact</a>
-        <a href="#resources">Resources</a>
+        <ul>
+           <li><a href="#about">About Me</a></li>
+           <li><a href="#projects">Projects</a></li> 
+           <li><a href="#contact">Contact</a></li> 
+           <li><a href="#resources">Resources</a></li> 
+        </ul>
      </nav>
 
    <!-- An “About Me” section with a brief, but precise, description of who you are and your aspirations in web development. 
@@ -32,33 +34,50 @@
 
     <section id="about">
         <h2>About Me</h2>
-        <p>My name is Joanna and I am passionate about web development! I have graduated with a BEng in robotics however
-            I fell love in full stack development - both front end and back end - this passion has woken up a deep desire to
-            change directions and fully embrace the path of a full stack developer. I love creating websites, making it as versitile
-            and accessable as possible, using the latest technologies. I am still learning and I enjoy every second of it! I am
-            looking forward to work on website development related projects. Due to my background in robotics I will offer a sharp, mathematical
-            mind focused on finding the most optimal solution.
+        <p>My name is Joanna, and I am passionate about web development! Although I graduated with a BEng in Robotics, I fell in love with 
+            full-stack development—both front-end and back-end. This newfound passion has ignited a deep desire in me to change directions and 
+            fully embrace the path of a full-stack developer.
         </p>
+        <p>I love creating websites, striving to make them as versatile and accessible as 
+            possible, using the latest technologies. I am still learning and enjoying every second of it! I am eager to work on website 
+            development projects. My background in robotics gives me a sharp, mathematical mind, focused on finding the most optimal solutions.</p>
     </section>
 
     <!--A “Projects” section listing three fictional projects you would like to work on in the future. You’ll create placeholder 
     content that will be replaced with real projects as you develop actual skills.-->
-    <section id="projects">
-        <h2>Projects</h2>
-        <h3>My Top TV-Show List</h3>
-        <h3>Webstie Chat Bot</h3>
-        <h3>Food, Supplement and Exercise suggestions for Weight Loss</h3>
-    </section>
+    <div id="projects">
+
+        <section>
+            <h2>Projects</h2>
+            <h3>Top TV-Show Ranking</h3>
+            <p>A ranking of top TV-Shows. The website connects automatically with a few TV website rankings and displayes the top 100 TV TV-Shows
+                based on the calculated average of those external sources.
+            </p>
+        </section>
+
+        <section>
+            <h3>Website Chat Bot</h3>
+            <p>An AI chatbot ready to help with any questions you might have!</p>
+        </section>
+
+        <section>
+            <h3>Food, Supplement and Exercise suggestions for Weight Loss</h3>
+            <p>Input your BMI and your target weight - the website will suggest your meals, exercises and any supplements
+                you should be taking to stay healthy with a restricted food intake!
+            </p>
+        </section>
+
+    </div>
 
     <!--Embed a YouTube video or an audio clip relevant to web development or your interests. This should go into a new “Resources” section. 
     Make sure you use the appropriate HTML tags for embedding.-->
-    <div>
+ 
     <section id="resources"> 
+        <h2>YouTube Resources</h2>
         <iframe width="560" height="315" src="https://www.youtube.com/embed/aDy_U3Hk8Pc?si=o3ohO2h6vHcMcUhr" title="YouTube video player" 
         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
         referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
     </section>
-</div>
 
     <!--A “Contact” section with a simple text form where users can supposedly get in touch with you. No functionality yet—just the skeleton.-->
     <section id="contact">
@@ -79,7 +98,7 @@
             <input id="subject" type="text" placeholder="Your message subject" required><br>
             <label for="message">Message:</label><br>
             <textarea id="message"  required rows="5" cols="20" placeholder="Your message"></textarea><br>
-            <input type="submit">
+            <button type="submit">Submit</button>
         </form>
     </section>
 </body>
