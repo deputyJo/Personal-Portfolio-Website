@@ -2,12 +2,12 @@
 
 Sections:
 
-1. Heading - A tagline about me and a picture of my favourite female strong fictional character
+1. Heading - A tagline about me and a picture of my favourite strong female fictional character
      Learnt: How to resize images
 2. About me - Information about me
      Learnt: How to link to a section of the same page
 3. Projects - List of future projects I would like to work on
-     Learnt:It gave me an idea about future projects which I would like to do
+     Learnt: It gave me an idea about future projects which I would like to do
 4. Resources - My favourite YouTube video
      Learnt: How to embed a YouTube link
 5. Contact - A form which can be used to contact me
